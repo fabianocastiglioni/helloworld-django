@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Frabiano, vulgo \"bíbí\", é o Kra!!!!!")
+    return HttpResponse("Cloud Computing & Site Reliability Engineering - Anderson Cruz Fernandes")
