@@ -1,7 +1,7 @@
 services:
   - type: web
     plan: free
-    name: mysite
+    name: fcastsite
     runtime: python
     buildCommand: "pip3 --disable-pip-version-check --no-cache-dir install -r requirements.txt"
     startCommand: "python manage.py runserver --noreload"
