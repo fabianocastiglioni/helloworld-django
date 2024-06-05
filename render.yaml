@@ -5,6 +5,3 @@ services:
     runtime: python
     buildCommand: "pip3 --disable-pip-version-check --no-cache-dir install -r requirements.txt"
     startCommand: "python manage.py runserver --noreload"
-    envVars:
-      - key: PORT
-        value: 4242
