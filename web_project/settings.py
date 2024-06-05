@@ -25,7 +25,7 @@ SECRET_KEY = '4c0^4n-##mg$ziyn%#)qio^s2$t7bm4+^dahy1i1x$s$f^lnq%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://helloworld-django-wuog.onrender.com']
+ALLOWED_HOSTS = ['helloworld-django-wuog.onrender.com']
 
 
 # Application definition
